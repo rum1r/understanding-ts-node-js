@@ -1,1 +1,5 @@
-console.log('実行中');
+import express from 'express';
+
+const app = express();
+
+app.listen(3000);
